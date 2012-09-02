@@ -1,0 +1,9 @@
+This project is intended to produce a game that plays 4x4x4 tic-tac-toe.
+
+It is built around the work of Oren Patashnik, who proved the game is a win for the
+first player, and published his results in 1980.  I contacted him around 2000 and got
+his permission (encouragement, actually) to produce such a game, and to incorporate his
+"strategic moves" in it.
+
+Current status: working on a program to verify his work, and in the process generate a
+more helpful list of moves that will eliminate the need for searching.

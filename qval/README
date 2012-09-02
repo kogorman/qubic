@@ -1,0 +1,5 @@
+To run this thing, ./runtests.sh
+
+At version 0.1, this verifies that the strategic moves
+form a winning strategy.  As a by-product, a library
+of opponent positions is formed.
