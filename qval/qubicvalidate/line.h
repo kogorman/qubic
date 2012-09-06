@@ -21,6 +21,8 @@
 #ifndef LINE_H
 #define LINE_H
 
+class line;
+
 #include "win.h"
 #include "point.h"
 #include "llink.h"

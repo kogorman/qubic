@@ -41,8 +41,10 @@
 #include <iostream>
 #include <fstream>
 #include <cstdlib>
+#include <cstring>
 #include <iomanip>
 #include <exception>
+
 using namespace std;    // for ease of use
 
 class iso;

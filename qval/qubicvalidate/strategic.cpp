@@ -101,10 +101,11 @@ strategic::smv[2929];
 
 // Read the pattern to make a board.  Fill in the 'strategic' object.
 void
-strategic::makeNext(char *pattern, int mt) {
+strategic::makeNext(const char *pattern, int mt) {
 	strategic *sp = &smv[strategic::i++];
 	sp->pattern = pattern;
-	char ch, *cursor;
+	char ch;
+        const char *cursor;
 	int skip;
 	int *where;
 

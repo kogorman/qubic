@@ -26,12 +26,12 @@ class strategic {
     friend class board;
 private:
     static int i;   ///< The count of strategic moves.
-    static void makeNext(char *pattern, int mt);    ///< Add one to the collection.
+    static void makeNext(const char *pattern, int mt);    ///< Add one to the collection.
     static strategic smv[2929]; ///< The array of all strategic moves.
 public:
     movenum points[64];     ///< The canonic board for this position
     movenum moveto;         ///< Where the 1st player can win
-    char *pattern;          ///< The text representation of this position.
+    const char *pattern;          ///< The text representation of this position.
     static void init();     ///< Initialize.
     /// For validation -- produce the indexed strategic object.
     static strategic &find(int i) {

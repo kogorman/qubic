@@ -1,0 +1,10 @@
+Form a library of all moves in the winning tree.
+
+Mark each move with the "best play" expected outcome
+(i.e. winner and moves to the win).
+
+Collect statistics for each strategic move:
+    tree size (full)
+    tree size (actual nodes examined)
+    move list (all moves actually used by 1st player)
+    Anything else that might support a research effort.

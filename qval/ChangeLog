@@ -1,0 +1,7 @@
+Version 0.2, opened 28 August 2001.
+
+28 Aug 2001 - first version verfies that the strategic moves
+  do indeed form a winning strategy.  In the process, it finds
+  300 orphaned strategic moves that are never reached.
+
+Version 0.1, 26 July 2001.
