@@ -1,0 +1,7 @@
+*.o
+*.tar.gz
+config.h
+config.h.in
+config.status
+configure.ac
+configure.in
